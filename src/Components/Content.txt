@@ -1,0 +1,9 @@
+ Hi there, this is <span className={styles.highlight_text}>Muhammad Anas</span>.
+I am a Coding <span className={styles.highlight_text}>Enthusiast.</span>. I am currently
+a university student studying <span className={styles.highlight_text}>Electrical Engineering </span>
+as a passion while working as a <span className={styles.highlight_text}>Full Stack  </span>
+Web Developer as a profession. I have done many <span className={styles.highlight_text}> Personal </span> 
+and <span className={styles.highlight_text}> Professional</span> projects in the past two years. 
+I believe that I have good <span className={styles.highlight_text}> Problem Solving </span> abilities.
+I am a Quick <span className={styles.highlight_text}> Learner </span> and I am looking for opportunities
+to polish my <span className={styles.highlight_text}> Skills </span>.
