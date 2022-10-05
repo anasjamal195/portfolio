@@ -185,7 +185,7 @@ export default function App(props) {
                     <br/>
                     <Container className={styles.button_container} >
                         <Button className={styles.btn1} variant='contained'  >
-                        <a href={CV} className = {styles.download_link}  download>Download CV</a>
+                        <a href={CV} className = {styles.download_link} >Download CV</a>
                         </Button>
                     </Container>
                 </Container>
