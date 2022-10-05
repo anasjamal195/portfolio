@@ -19,7 +19,7 @@ root.render(
   <ThemeProvider theme={theme}>
     <StyledEngineProvider injectFirst>
     <ParticlesBg type="cobweb" bg = {true} num = {50} color = {Colors.theme_primary} />
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <App />
       </BrowserRouter>
     </StyledEngineProvider>

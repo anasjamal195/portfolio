@@ -1,6 +1,7 @@
 {
   "name": "portfolio-site",
   "version": "0.1.0",
+  "homepage": "https://anasjamal195.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
@@ -13,6 +14,7 @@
     "@testing-library/user-event": "^13.5.0",
     "better-react-carousel": "^1.1.1",
     "flat-carousel": "0.0.1",
+    "gh-pages": "^4.0.0",
     "particles-bg": "^2.5.5",
     "react": "^18.2.0",
     "react-animated-progress-bar": "^1.1.1",
@@ -33,7 +35,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
