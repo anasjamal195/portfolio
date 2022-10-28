@@ -114,6 +114,16 @@ export default function App() {
                         3) Background changes everytime you click on the clock.
                         `} 
                         thumbnail = {Thumbs.Proj7}/>
+                <Project title = "Google Scrapper" 
+                        description = {`This is a python based web scrapping tool and vCards generator. It is made using Selenium web automation framwork in python. The user types the Search Keywords or a list of Keywords seperated by commas (,) into the search bar and it scrapes all the contacts from google search results in businnes listing catagory.
+                        
+                        The main feature of this desktop app includes:
+                        1) Includes Headless mode of operation.
+                        2) Creates the .vcf file of all the contacts.
+                        3) Include filters for landline and mobile numbers.
+                        4) Phone numbers validity checks.
+                        and much more about to come...`} 
+                        thumbnail = {Thumbs.Proj8}/>
             </Container>
         </div>
     );

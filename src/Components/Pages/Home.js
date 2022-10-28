@@ -5,8 +5,8 @@ import Colors from '../../Design/Colors'
 import Grid from '@mui/material/Grid';
 import CV from '../../Docs/CV.pdf'
 import { Box } from '@mui/system';
-import image_url from '../../img/page1_img.png'
-import image_url2 from '../../img/page1_img2.png'
+import image_url2 from '../../img/page1_img.png'
+import image_url from '../../img/page1_img2.png'
 import InfoIcon from '@mui/icons-material/Info';
 import { Link, animateScroll as Scroll } from "react-scroll";
 import {forwardRef, useImperativeHandle, useRef} from 'react';
